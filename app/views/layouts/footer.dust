@@ -1,0 +1,50 @@
+<footer class="android-footer mdl-mega-footer">
+  <div class="mdl-mega-footer--top-section">
+    <div class="mdl-mega-footer--left-section">
+      {#app.footer.social_networks.sites}
+      <a class="footer-link-social social-{key}" href="{href}" target="_blank">
+        <i class="fa fa-{key} fa-3x" aria-hidden="true"></i>
+      </a>
+      {/app.footer.social_networks.sites}
+    </div>
+    <div class="mdl-mega-footer--right-section">
+      <a class="mdl-typography--font-light" href="#top">
+        {@message type="content" key="back_to_top" /}
+        <i class="material-icons">expand_less</i>
+      </a>
+    </div>
+  </div>
+
+  <div class="mdl-mega-footer--middle-section">
+    <p class="mdl-typography--font-light">{@message type="content" key="section.copyright" /}</p>
+    <p class="mdl-typography--font-light">{@message type="content" key="section.message" /}</p>
+  </div>
+
+  <div class="mdl-mega-footer--bottom-section">
+    <a class="android-link android-link-menu mdl-typography--font-light" id="social-networks-dropdown">
+      {@message type="content" key=app.footer.social_networks.key/}
+      <i class="material-icons">arrow_drop_up</i>
+    </a>
+    <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect no-paddind" for="social-networks-dropdown">
+      {#app.footer.social_networks.sites}
+      <li class="mdl-menu__item mdl-js-ripple-effect">
+        <a href="{href}" target="_blank">{text}</a>
+      </li>
+      {/app.footer.social_networks.sites}
+    </ul>
+    <a class="android-link android-link-menu mdl-typography--font-light" id="developers-dropdown">
+      For Developers
+      <i class="material-icons">arrow_drop_up</i>
+    </a>
+    <ul class="mdl-menu mdl-js-menu mdl-menu--top-left mdl-js-ripple-effect" for="developers-dropdown">
+      <li class="mdl-menu__item">App developer resources</li>
+      <li class="mdl-menu__item">Android Open Source Project</li>
+      <li class="mdl-menu__item">Android SDK</li>
+      <li class="mdl-menu__item">Android for Work</li>
+    </ul>
+    {#app.footer.menu}
+    <a class="android-link mdl-typography--font-light" href="{href}">{@message type="content" key=key/}</a>
+    {/app.footer.menu}
+  </div>
+
+</footer>

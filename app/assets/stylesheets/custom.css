@@ -1,0 +1,43 @@
+ul.no-paddind > .mdl-menu__item {
+  padding: 0 !important;
+  position: relative;
+  overflow: hidden;
+}
+
+ul.no-paddind > .mdl-menu__item > a {
+  padding: 0 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width:75%;
+  height: 100%;
+  margin: 0 !important;
+}
+
+.mdl-layout-title a,
+.mdl-menu__item a {
+  color: rgba(0, 0, 0, .87);
+  text-decoration: none;
+}
+
+.footer-link-social {
+  padding: 10px;
+  color: #026e00;
+}
+
+.social-facebook:hover {
+  color: #3b5998 !important;
+}
+
+.social-twitter:hover {
+  color: #1da1f2 !important;
+}
+
+.social-instagram:hover {
+  color: #262626 !important;
+}
+
+.social-youtube:hover {
+  color: #cc181e !important;
+}

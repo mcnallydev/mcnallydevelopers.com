@@ -1,0 +1,37 @@
+{
+  "social_networks": {
+    "key": "social_networks",
+    "sites": [
+      {
+        "key": "facebook",
+        "text": "Facebook",
+        "href": "https://www.facebook.com/mcnallydev/?fref=website"
+      },
+      {
+        "key": "twitter",
+        "text": "Twitter",
+        "href": "https://twitter.com/mcnallydev/?fref=website"
+      },
+      {
+        "key": "instagram",
+        "text": "Instagram",
+        "href": "https://www.instagram.com/mcnallydevelopers/?fref=website"
+      },
+      {
+        "key": "youtube",
+        "text": "YouTube",
+        "href": "https://www.youtube.com/"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "key": "privacy_policies",
+      "href": "/policies/privacy"
+    },
+    {
+      "key": "terms_and_conditions",
+      "href": "/policies/terms"
+    }
+  ]
+}

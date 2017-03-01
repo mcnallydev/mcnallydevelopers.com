@@ -1,0 +1,30 @@
+{
+  "menu": [
+    {
+      "key": "home",
+      "href": "/"
+    },
+    {
+      "key": "services",
+      "href": "/services"
+    },
+    {
+      "key": "projects",
+      "href": "/projects"
+    },
+    {
+      "key": "learning",
+      "href": "/learning"
+    }
+  ],
+  "languages": [
+    {
+      "key": "english",
+      "href": "/setLocale/en-US"
+    },
+    {
+      "key": "spanish",
+      "href": "/setLocale/es-NI"
+    }
+  ]
+}

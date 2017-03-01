@@ -63,6 +63,11 @@ a img{
 
 .logo-image {
   height: 28px;
+  width: 224px;
+}
+
+.logo-image-mobile {
+  height: 28px;
   width: 199px;
 }
 
@@ -175,7 +180,7 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  background: url('/images/slide01.jpg') center 30% no-repeat;
   background-size: cover;
 }
 
@@ -329,11 +334,11 @@ a img{
 
 .android-link {
   text-decoration: none;
-  color: #8bc34a !important;
+  color: #026e00 !important;
 }
 
   .android-link:hover {
-    color: #7cb342 !important;
+    color: #8bc34a !important;
   }
 
   .android-link .material-icons {
@@ -429,12 +434,13 @@ a img{
   }
 
 .android-footer {
+  color: #333333;
   background-color: #fafafa;
   position: relative;
 }
 
   .android-footer a:hover {
-    color: #8bc34a;
+    color: #026e00;
   }
 
   .android-footer .mdl-mega-footer--top-section::after {
