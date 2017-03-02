@@ -1,0 +1,89 @@
+{>"layouts/master" /}
+{<title}
+    {@message type="content" key="html.title" /}
+{/title}
+
+{<body}
+    <!-- app development -->
+    <div class="apps-section mdl-typography--text-center" id="app">
+        <div class="logo-font android-slogan animated bounce">{@message type="content" key="section.app.title" /}</div>
+        <div class="logo-font android-sub-slogan animated bounce">{@message type="content" key="section.app.sub.title" /}</div>
+
+        <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
+                <div class="mdl-card__media">
+                    <img src="/images/services/app_01.png">
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
+                <div class="mdl-card__media">
+                    <img src="/images/services/app_02.png">
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
+                <div class="mdl-card__media">
+                    <img src="/images/services/app_03.png">
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
+                <div class="mdl-card__media">
+                    <img src="/images/services/app_04.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="android-more-section section-grey">
+        <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center">
+            <a class="android-link" href="/services/apps">
+                {@message type="content" key="section.more" /} <i class="material-icons">arrow_forward</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- web development -->
+    <div class="mdl-typography--text-center" id="web">
+        <div class="logo-font android-slogan animated bounce">{@message type="content" key="section.web.title" /}</div>
+        <div class="logo-font android-sub-slogan animated bounce">{@message type="content" key="section.web.sub.title" /}</div>
+
+        <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phone mdl-card animated bounceIn">
+            </div>
+            <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card animated bounceIn">
+                <div class="mdl-card__media">
+                    <img src="/images/services/web.png">
+                </div>
+            </div>
+            <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phone mdl-card animated bounceIn">
+            </div>
+        </div>
+    </div>
+
+    <div class="android-more-section">
+        <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center">
+            <a class="android-link" href="/services/webs">
+                {@message type="content" key="section.more" /} <i class="material-icons">arrow_forward</i>
+            </a>
+        </div>
+    </div>
+
+    <!-- consultancy -->
+    <!--
+    <div class="consultancy-section section-grey mdl-typography--text-center" id="consultancy">
+        <div class="logo-font android-slogan animated bounce">{@message type="content" key="section.consultancy.title" /}</div>
+        <div class="logo-font android-sub-slogan animated bounce">{@message type="content" key="section.consultancy.sub.title" /}</div>
+
+        <div class="logo-font android-create-character">
+            <a href=""><img src="/images/andy.png"> create your android character</a>
+        </div>
+    </div>
+
+    <div class="android-more-section section-grey">
+        <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center">
+            <a class="android-link" href="/services/consultancy">
+                {@message type="content" key="section.more" /} <i class="material-icons">arrow_forward</i>
+            </a>
+        </div>
+    </div>
+    -->
+{/body}

@@ -1,4 +1,7 @@
 {>"layouts/master" /}
+{<title}
+  {@message type="content" key="html.title" /}
+{/title}
 
 {<body}
 <div class="android-be-together-section mdl-typography--text-center">

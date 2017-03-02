@@ -1,3 +1,6 @@
+/*jshint esversion: 6 */
+"use strict";
+
 const dataMiddleware = require('../middleware/data');
 
 module.exports = function (router) {
@@ -7,7 +10,10 @@ module.exports = function (router) {
 
   // locales
   router.get('/setLocale/:locale', (req, res) => {
-    res.cookie('locale', req.params.locale);
+    let options = {
+      expires: new Date(Date.now() + 900000)
+    };
+    res.cookie('locale', req.params.locale, options);
     res.redirect('/');
   });
 };

@@ -18,10 +18,10 @@ app.use(require('./app/middleware/locale'));
 
 // i18n
 app.use(makara({
-    i18n: {
-        contentPath: path.resolve(__dirname, 'config/locales'),
-        fallback: 'es-NI'
-    }
+  i18n: {
+    contentPath: path.resolve(__dirname, 'config/locales'),
+    fallback: 'es-NI'
+  }
 }));
 
 // controllers & middleware
@@ -32,7 +32,12 @@ let routes = enrouten({
 app.use(routes);
 
 // views
-app.engine('dust', makara.dust({ cache: false, helpers: [ 'dust-makara-helpers' ] }));
+app.engine('dust', makara.dust({
+  cache: false, helpers: [
+    'dust-makara-helpers',
+    require('./app/helpers/helper')
+  ]
+}));
 //app.engine('dust', adaro.dust({}));
 app.set('views', 'app/views');
 app.set('view engine', 'dust');

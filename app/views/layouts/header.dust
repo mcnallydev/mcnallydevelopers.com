@@ -9,7 +9,7 @@
     <div class="android-navigation-container">
       <nav class="android-navigation mdl-navigation">
         {#app.main.menu}
-          <a class="mdl-navigation__link mdl-typography--text-uppercase animated fadeIn" href="{href}">{@message type="content" key=key/}</a>
+          <a class="{@navigation url="{app.navigation}" item="{href}" /} mdl-navigation__link mdl-typography--text-uppercase animated fadeIn" href="{href}">{@message type="content" key=key/}</a>
         {/app.main.menu}
       </nav>
     </div>
