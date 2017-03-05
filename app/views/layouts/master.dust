@@ -30,6 +30,7 @@
             z-index: 900;
         }
     </style>
+    {>"layouts/analytics" /}
 </head>
 <body>
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
