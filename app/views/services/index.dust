@@ -12,27 +12,28 @@
         <div class="android-card-container mdl-grid">
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
                 <div class="mdl-card__media">
-                    <img src="/images/services/app_01.png">
+                    <img src="/images/services/app_01_medium.png">
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
                 <div class="mdl-card__media">
-                    <img src="/images/services/app_02.png">
+                    <img src="/images/services/app_02_medium.png">
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
                 <div class="mdl-card__media">
-                    <img src="/images/services/app_03.png">
+                    <img src="/images/services/app_03_medium.png">
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card animated bounceIn">
                 <div class="mdl-card__media">
-                    <img src="/images/services/app_04.png">
+                    <img src="/images/services/app_04_medium.png">
                 </div>
             </div>
         </div>
     </div>
 
+    <!--
     <div class="android-more-section section-grey">
         <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center">
             <a class="android-link" href="/services/apps">
@@ -40,6 +41,7 @@
             </a>
         </div>
     </div>
+    -->
 
     <!-- web development -->
     <div class="mdl-typography--text-center" id="web">
@@ -51,7 +53,7 @@
             </div>
             <div class="mdl-cell mdl-cell--8-col mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-card animated bounceIn">
                 <div class="mdl-card__media">
-                    <img src="/images/services/web.png">
+                    <img src="/images/services/web_medium.png">
                 </div>
             </div>
             <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--2-col-phone mdl-card animated bounceIn">
@@ -59,6 +61,7 @@
         </div>
     </div>
 
+    <!--
     <div class="android-more-section">
         <div class="android-section-title mdl-typography--display-1-color-contrast mdl-typography--text-center">
             <a class="android-link" href="/services/webs">
@@ -66,6 +69,7 @@
             </a>
         </div>
     </div>
+    -->
 
     <!-- consultancy -->
     <!--

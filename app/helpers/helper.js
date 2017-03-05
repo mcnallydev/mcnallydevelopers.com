@@ -6,7 +6,7 @@ module.exports = function (dust) {
     let item = context.resolve(params.item, chunk, context) || '/';
 
     // validate to set string class name
-    if(url=== item) {
+    if (url=== item) {
       response = 'android-navigation-selected';
     }
 

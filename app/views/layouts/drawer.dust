@@ -1,25 +1,33 @@
 <div class="android-drawer mdl-layout__drawer">
-  <span class="mdl-layout-title">
-    <img class="android-logo-image" src="images/android-logo-white.png">
-  </span>
-  <nav class="mdl-navigation">
-    {#app.main.menu}
-      <a class="mdl-navigation__link" href="{href}">{@message type="content" key=key/}</a>
-    {/app.main.menu}
-    <div class="android-drawer-separator"></div>
-    <span class="mdl-navigation__link" href="">{@message type="content" key=app.footer.social_networks.key/}</span>
-    {#app.footer.social_networks.sites}
-    <a class="mdl-navigation__link" href="{href}" target="_blank">{text}</a>
-    {/app.footer.social_networks.sites}
-    <div class="android-drawer-separator"></div>
-    <span class="mdl-navigation__link" href="">Resources</span>
-    <a class="mdl-navigation__link" href="">Official blog</a>
-    <a class="mdl-navigation__link" href="">Android on Google+</a>
-    <a class="mdl-navigation__link" href="">Android on Twitter</a>
-    <div class="android-drawer-separator"></div>
-    <span class="mdl-navigation__link" href="">For developers</span>
-    <a class="mdl-navigation__link" href="">App developer resources</a>
-    <a class="mdl-navigation__link" href="">Android Open Source Project</a>
-    <a class="mdl-navigation__link" href="">Android SDK</a>
-  </nav>
+    <!--
+    <span class="mdl-layout-title">
+    <img class="android-logo-image" src="/images/logo-text-224-28.png">
+    </span>
+    -->
+    <nav class="mdl-navigation">
+        {#app.main.menu}
+            {?active}
+                <a class="mdl-navigation__link" href="{href}">
+                    {@message type="content" key=key/}
+                </a>
+            {/active}
+        {/app.main.menu}
+        <div class="android-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">{@message type="content" key=app.footer.social_networks.key/}</span>
+        {#app.footer.social_networks.sites}
+            <a class="mdl-navigation__link" href="{href}" target="_blank">{text}</a>
+        {/app.footer.social_networks.sites}
+        <!--
+        <div class="android-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">Resources</span>
+        <a class="mdl-navigation__link" href="">Official blog</a>
+        <a class="mdl-navigation__link" href="">Android on Google+</a>
+        <a class="mdl-navigation__link" href="">Android on Twitter</a>
+        <div class="android-drawer-separator"></div>
+        <span class="mdl-navigation__link" href="">For developers</span>
+        <a class="mdl-navigation__link" href="">App developer resources</a>
+        <a class="mdl-navigation__link" href="">Android Open Source Project</a>
+        <a class="mdl-navigation__link" href="">Android SDK</a>
+        -->
+    </nav>
 </div>

@@ -1,6 +1,7 @@
 /*jshint esversion: 6 */
 "use strict";
 
+// Fixme: Resolve the middleware import automatically
 const dataMiddleware = require('../../middleware/data');
 
 module.exports = function (router) {

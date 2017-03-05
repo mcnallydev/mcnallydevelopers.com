@@ -2,29 +2,40 @@
   "menu": [
     {
       "key": "home",
-      "href": "/"
+      "href": "/",
+      "active": true
     },
     {
       "key": "services",
-      "href": "/services"
+      "href": "/services",
+      "active": true
     },
     {
       "key": "projects",
-      "href": "/projects"
+      "href": "/projects",
+      "active": false
     },
     {
       "key": "learning",
-      "href": "/learning"
+      "href": "/learning",
+      "active": false
+    },
+    {
+      "key": "contact",
+      "href": "/contact",
+      "active": true
     }
   ],
   "languages": [
     {
       "key": "english",
-      "href": "/setLocale/en-US"
+      "href": "/setLocale/en-US",
+      "active": true
     },
     {
       "key": "spanish",
-      "href": "/setLocale/es-NI"
+      "href": "/setLocale/es-NI",
+      "active": true
     }
   ]
 }

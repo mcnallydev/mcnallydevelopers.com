@@ -1,0 +1,31 @@
+{>"layouts/master" /}
+{<title}
+    {@message type="content" key="html.title" /}
+{/title}
+
+{<body}
+    <div class="privacy-slide mdl-typography--text-center">
+        <div class="logo-font android-slogan animated bounce">{@message type="content" key="section.title" /}</div>
+        <div class="logo-font android-sub-slogan animated bounce">{@message type="content" key="section.sub.title" /}</div>
+    </div>
+
+    <div class="privacy-text">
+        <div class="android-wear-band">
+            <div class="android-wear-band-text">
+                <div class="mdl-typography--display-2 mdl-typography--font-thin">{@message type="content" key="info.title" /}</div>
+                <p class="mdl-typography--headline mdl-typography--font-thin">
+                    <i class="material-icons">email</i> {@message type="content" key="email" /}
+                </p>
+                <p class="mdl-typography--headline mdl-typography--font-thin">
+                    <i class="material-icons">smartphone</i> {@message type="content" key="mobile_movistar" /}
+                </p>
+                <p class="mdl-typography--headline mdl-typography--font-thin">
+                    <i class="material-icons">smartphone</i> {@message type="content" key="mobile_claro" /}
+                </p>
+                <p class="mdl-typography--headline mdl-typography--font-thin">
+                    <i class="material-icons">place</i> {@message type="content" key="address" /}
+                </p>
+            </div>
+        </div>
+    </div>
+{/body}
