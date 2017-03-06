@@ -16,7 +16,8 @@
                     <div class="post-divider"></div>
                     <div class="mdl-typography--caption mdl-typography--font-thin">
                         {#post.tags}
-                            <a class="android-link mdl-typography--font-light mdl-typography--subhead" href="/blog/{slug}">{name}</a>
+                            <a class="android-link mdl-typography--font-light mdl-typography--subhead"
+                               href="/blog/{slug}">{name}</a>
                         {/post.tags}
                     </div>
                     <hr>
@@ -24,6 +25,33 @@
                         {@markdown}
                             {post.markdown}
                         {/markdown}
+                        <hr>
+                        <div>
+                            <!-- Twitter -->
+                            <a href="http://twitter.com/home?status={post.title} - http://www.mcnallydevelopers.com/blog/{post.tags[0].slug}/{post.slug}" title="Share on Twitter" target="_blank"
+                               class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--twitter"><i
+                                    class="fa fa-twitter fa-fw"></i> Twitter</a>
+                            <!-- Facebook -->
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=http://www.mcnallydevelopers.com/blog/{post.tags[0].slug}/{post.slug}" title="Share on Facebook"
+                               target="_blank"
+                               class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--facebook"><i
+                                    class="fa fa-facebook fa-fw"></i> Facebook</a>
+                            <!-- Google+ -->
+                            <a href="https://plus.google.com/share?url={post.title} - http://www.mcnallydevelopers.com/blog/{post.tags[0].slug}/{post.slug}" title="Share on Google+" target="_blank"
+                               class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--googleplus"><i
+                                    class="fa fa-google-plus fa-fw"></i> Google+</a>
+                            <!-- StumbleUpon -->
+                            <a href="http://www.stumbleupon.com/submit?url={post.title} - http://www.mcnallydevelopers.com/blog/{post.tags[0].slug}/{post.slug}" title="Share on StumbleUpon"
+                               target="_blank" data-placement="top"
+                               class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--stumbleupon"><i
+                                    class="fa fa-stumbleupon fa-fw"></i> Stumbleupon</a>
+                            <!-- LinkedIn -->
+                            <a href="http://www.linkedin.com/shareArticle?mini=true&url=http://www.mcnallydevelopers.com/blog/{post.tags[0].slug}/{post.slug}&title={post.title}"
+                               title="Share on LinkedIn" target="_blank"
+                               class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--linkedin"><i
+                                    class="fa fa-linkedin fa-fw"></i> LinkedIn</a>
+                        </div>
+
                         {>"layouts/comments" /}
                     </div>
                 </div>
