@@ -170,6 +170,15 @@ a img {
     bottom: 16px;
 }
 
+.blog-slide {
+    position: relative;
+    height: 400px;
+    width: auto;
+    background-color: #f3f3f3;
+    background: url('/images/blog/slide.jpg');
+    background-repeat: repeat;
+}
+
 .privacy-slide {
     position: relative;
     height: 400px;
