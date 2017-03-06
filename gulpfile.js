@@ -7,7 +7,10 @@ var cleanCSS = require('gulp-clean-css');
 var del = require('del');
 
 var jsFiles = [
-    'vendor/javascripts/material.min.js'
+    'vendor/javascripts/material.min.js',
+    'vendor/javascripts/jquery-3.1.1.min.js',
+    'vendor/javascripts/jquery.fitvids.js',
+    'vendor/javascripts/app.js'
   ],
   jsDest = 'app/assets/javascripts';
 

@@ -3574,11 +3574,11 @@ a img {
 }
 
 .overall {
-    position:absolute;
-    left:0;
+    position: absolute;
+    left: 0;
     width: 100%;
-    height:100%;
-    background: rgba(0,0,0,.5);
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
 }
 
 .logo-font {
@@ -3730,6 +3730,24 @@ a img {
     color: white;
     position: relative;
     overflow: hidden;
+}
+
+.post-text {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: left;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.post-divider {
+    height: 20px;
+}
+
+.post-content {
+    color: #333333 !important;
 }
 
 .android-wear-band-text p {

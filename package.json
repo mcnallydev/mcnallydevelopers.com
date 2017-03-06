@@ -24,10 +24,16 @@
   "dependencies": {
     "adaro": "^1.0.4",
     "cookie-parser": "^1.4.3",
+    "dotenv": "^4.0.0",
     "dust-makara-helpers": "^4.1.2",
+    "dustjs-helpers-markdown": "0.0.5",
+    "dustjs-helpers-moment": "^0.0.5",
     "express": "^4.14.1",
     "express-enrouten": "^1.3.0",
-    "makara": "^2.0.3"
+    "makara": "^2.0.3",
+    "pg": "^6.1.2",
+    "pg-native": "^1.10.0",
+    "sequelize": "^3.30.2"
   },
   "devDependencies": {
     "del": "^2.2.2",

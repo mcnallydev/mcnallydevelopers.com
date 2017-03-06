@@ -1,13 +1,12 @@
 {>"layouts/master" /}
 {<title}
-    {@message type="content" key="html.title" /}
+    {tag.name}
 {/title}
 
 {<body}
     <div class="blog-slide mdl-typography--text-center">
         <div class="overall"></div>
-        <div class="logo-font-home android-slogan animated bounce">{@message type="content" key="section.title" /}</div>
-        <div class="logo-font-home android-sub-slogan animated bounce">{@message type="content" key="section.sub.title" /}</div>
+        <div class="logo-font-home android-slogan animated bounce">{tag.name}</div>
     </div>
 
     <div class="android-more-section">
