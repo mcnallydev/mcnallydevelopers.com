@@ -1,3 +1,4 @@
+require('dotenv').load();
 const express = require('express');
 const enrouten = require('express-enrouten');
 const cookieParser = require('cookie-parser');
@@ -35,6 +36,8 @@ app.use(routes);
 app.engine('dust', makara.dust({
   cache: false, helpers: [
     'dust-makara-helpers',
+    'dustjs-helpers-markdown',
+    'dustjs-helpers-moment',
     require('./app/helpers/helper')
   ]
 }));

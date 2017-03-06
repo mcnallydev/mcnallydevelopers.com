@@ -1,0 +1,14 @@
+{
+  "categories": [
+    {
+      "key": "applications",
+      "href": "/applications",
+      "active": true
+    },
+    {
+      "key": "security",
+      "href": "/security",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{>"layouts/master" /}
+{<title}
+    {post.title}
+{/title}
+
+{<body}
+    {?post}
+        <div class="privacy-text">
+            <div class="android-wear-band">
+                <div class="post-text">
+                    <div class="mdl-typography--display-2 mdl-typography--font-thin">{post.title}</div>
+                    <div class="post-divider"></div>
+                    <div class="mdl-typography--caption mdl-typography--font-thin">
+                        {@moment type="format" date="{post.createdAt}" format="YYYY. MMMM Do HH:mm" locale="es"/}
+                    </div>
+                    <div class="post-divider"></div>
+                    <div class="mdl-typography--caption mdl-typography--font-thin">
+                        {#post.tags}
+                            <a class="android-link mdl-typography--font-light mdl-typography--subhead" href="/blog/{slug}">{name}</a>
+                        {/post.tags}
+                    </div>
+                    <hr>
+                    <div class="post-content">
+                        {@markdown}
+                            {post.markdown}
+                        {/markdown}
+                        {>"layouts/comments" /}
+                    </div>
+                </div>
+            </div>
+        </div>
+        {else}
+    {/post}
+{/body}

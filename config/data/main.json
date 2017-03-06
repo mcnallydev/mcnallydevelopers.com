@@ -16,6 +16,11 @@
       "active": false
     },
     {
+      "key": "blog",
+      "href": "/blog",
+      "active": true
+    },
+    {
       "key": "learning",
       "href": "/learning",
       "active": false

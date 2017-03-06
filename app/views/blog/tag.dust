@@ -1,0 +1,39 @@
+{>"layouts/master" /}
+{<title}
+    {tag.name}
+{/title}
+
+{<body}
+    <div class="blog-slide mdl-typography--text-center">
+        <div class="overall"></div>
+        <div class="logo-font-home android-slogan animated bounce">{tag.name}</div>
+    </div>
+
+    <div class="android-more-section">
+        <div class="android-section-title mdl-typography--display-1-color-contrast">{@message type="content" key="recents" /}</div>
+        <div class="android-card-container mdl-grid">
+            {#posts}
+                <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+                    <div class="mdl-card__media">
+                        <img src="{image}">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h4 class="mdl-card__title-text">{title}</h4>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        <a class="android-link mdl-typography--font-light mdl-typography--subhead" href="/blog/{tags[0].slug}">
+                            {tags[0].name} <i class="material-icons">label</i>
+                        </a>
+                    </div>
+                    <div class="mdl-card__actions">
+                        <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase"
+                           href="/blog/{tags[0].slug}/{slug}">
+                            {@message type="content" key="read_post" /}
+                            <i class="material-icons">chevron_right</i>
+                        </a>
+                    </div>
+                </div>
+            {/posts}
+        </div>
+    </div>
+{/body}
