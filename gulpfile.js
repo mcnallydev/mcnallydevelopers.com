@@ -15,6 +15,7 @@ var jsFiles = [
   jsDest = 'app/assets/javascripts';
 
 var cssFiles = [
+  'vendor/stylesheets/material.min.css',
   'vendor/stylesheets/animate.css',
   'vendor/stylesheets/styles.css',
   'vendor/stylesheets/custom.css'
