@@ -19,12 +19,6 @@
                 <p class="mdl-typography--headline mdl-typography--font-thin">
                     <i class="material-icons">smartphone</i> {@message type="content" key="mobile_movistar" /}
                 </p>
-                <p class="mdl-typography--headline mdl-typography--font-thin">
-                    <i class="material-icons">smartphone</i> {@message type="content" key="mobile_claro" /}
-                </p>
-                <p class="mdl-typography--headline mdl-typography--font-thin">
-                    <i class="material-icons">place</i> {@message type="content" key="address" /}
-                </p>
             </div>
         </div>
     </div>
