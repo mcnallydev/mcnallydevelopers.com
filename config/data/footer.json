@@ -7,24 +7,6 @@
         "text": "Facebook",
         "href": "https://www.facebook.com/mcnallydev/?fref=website",
         "active": true
-      },
-      {
-        "key": "twitter",
-        "text": "Twitter",
-        "href": "https://twitter.com/mcnallydev/?fref=website",
-        "active": true
-      },
-      {
-        "key": "instagram",
-        "text": "Instagram",
-        "href": "https://www.instagram.com/mcnallydevelopers/?fref=website",
-        "active": true
-      },
-      {
-        "key": "youtube",
-        "text": "YouTube",
-        "href": "https://www.youtube.com/",
-        "active": true
       }
     ]
   },
